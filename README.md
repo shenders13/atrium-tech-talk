@@ -40,3 +40,4 @@ Make the following folders/files and open `lesson-01` using Sublime.
     /lesson-01
       index.html
 ```
+### Writing your first chunk of HTML
