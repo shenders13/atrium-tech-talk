@@ -33,7 +33,7 @@ You write:
 Download and install <a href='https://www.sublimetext.com/3'>Sublime</a>.
 
 ##### Make a project folder
-
+Make the following folders/files and open `lesson-01` using Sublime.
 ```
 /apps
   /atrium-tech-talks
