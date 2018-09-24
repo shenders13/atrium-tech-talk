@@ -45,7 +45,6 @@ Make the following folders/files and open `lesson-01` using Sublime.
 Here's a basic layout:
 
 ```
-<!DOCTYPE html>
 <html>
   <head>
     <title>Page Title</title>
