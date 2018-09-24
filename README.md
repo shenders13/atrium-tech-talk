@@ -13,3 +13,7 @@ At the end of Lesson 1 you should have a rough understanding of:
 - What HTML, CSS and a server does.
 - How to style a page.
 
+### How does the internet work?
+
+
+
