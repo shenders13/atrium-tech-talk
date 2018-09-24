@@ -8,7 +8,7 @@ You are going to build this:
 
 It will appear on your own computer. 
 
-At the end you should have a rough understanding of:
+At the end of Lesson 1 you should have a rough understanding of:
 
 - What HTML, CSS and a server does.
 - How to style a page.
