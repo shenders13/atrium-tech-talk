@@ -1,2 +1,7 @@
-# atrium-tech-talk
-An introductory course into the tech things...
+# Atrium's intro to the world of coding
+
+## Lesson 1
+
+
+
+
