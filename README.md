@@ -34,3 +34,9 @@ Download and install <a href='https://www.sublimetext.com/3'>Sublime</a>.
 
 ##### Make a project folder
 
+```
+/apps
+  /atrium-tech-talks
+    /lesson-01
+      index.html
+```
