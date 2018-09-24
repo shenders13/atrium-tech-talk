@@ -15,5 +15,7 @@ At the end of Lesson 1 you should have a rough understanding of:
 
 ### How does the internet work?
 
+When you type `www.netflix.com` into your browser, this shit happens:
 
+<img src="https://res.cloudinary.com/small-change/image/upload/v1537751752/Screen_Shot_2018-09-23_at_6.14.45_pm_iasjdb.png" />
 
