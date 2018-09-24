@@ -1,0 +1,70 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.heading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+}
+.background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: -webkit-linear-gradient(171deg, #A2A8D2 1%, #DF6B96 100%);
+  background-image: -o-linear-gradient(171deg, #A2A8D2 1%, #DF6B96 100%);
+  background-image: linear-gradient(261deg, #A2A8D2 1%, #DF6B96 100%);
+}
+.info-outer-container {
+  padding-top: 14vh;
+}
+.email-sam {
+  background-color: white;
+  border-radius: 3px;
+  font-size: 18px;
+  border: none;
+  padding: 12px 48px;
+  margin-top: 24px;
+  color: #D7739E;
+}
+.email-sam:hover {
+  cursor: pointer;
+}
+.info-inner-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.rocks {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.sun-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center
+}
+.sun {
+  width: 100%;
+  max-width: 700px;
+  max-height: 280px;
+}
+.rocks-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center
+}
+.rocks {
+  max-height: 69px;
+  width: 100%;
+}
