@@ -23,7 +23,14 @@ Lesson 1 will focus only on what the HTML looks like (step 3).
 
 ### Getting started on your laptop.
 
+##### Install a text editor
+
 You write:
 - Written documents using Word
 - Spreadsheets using excel
 - Code documents using a text editor like <a href='https://www.sublimetext.com/3'>Sublime</a>
+
+Download and install <a href='https://www.sublimetext.com/3'>Sublime</a>.
+
+##### Make a project folder
+
