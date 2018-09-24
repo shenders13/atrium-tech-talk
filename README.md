@@ -56,3 +56,7 @@ Here's a basic layout:
   </body>
 </html>
 ```
+
+Some of the most commonly used HTML tags are:
+
+<img src="https://res.cloudinary.com/small-change/image/upload/v1537754698/Screen_Shot_2018-09-23_at_7.04.11_pm_gaeciz.png"/>
