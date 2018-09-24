@@ -32,7 +32,7 @@ You write:
 
 Download and install <a href='https://www.sublimetext.com/3'>Sublime</a>.
 
-##### Make a project folder
+##### Make a project folder 
 Make the following folders/files and open `lesson-01` using Sublime.
 ```
 /apps
@@ -61,3 +61,19 @@ Some of the most commonly used HTML tags are:
 <img src="https://res.cloudinary.com/small-change/image/upload/v1537754698/Screen_Shot_2018-09-23_at_7.04.11_pm_gaeciz.png"/>
 
 ### Making your own webpage
+
+##### Adding the correct text
+
+Step 1: Add the correct text to the page. We'll use `h1` (most notable heading) for your name, and `h3`'s for your title and location.
+```
+<html>
+  <head>
+    <title>Sam Henderson</title>
+  </head>
+  <body>
+    <h1>Sam Henderson</h1>
+    <h3>Engineer</h3>
+    <h3>San Franciso, California</h3>
+  </body>
+</html>
+```
