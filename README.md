@@ -41,3 +41,18 @@ Make the following folders/files and open `lesson-01` using Sublime.
       index.html
 ```
 ### Writing your first chunk of HTML
+
+Here's a basic layout:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+  </body>
+</html>
+```
