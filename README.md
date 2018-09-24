@@ -20,3 +20,10 @@ When you type `www.netflix.com/watch/80192018` into your browser, this shit happ
 <img src="https://res.cloudinary.com/small-change/image/upload/v1537751752/Screen_Shot_2018-09-23_at_6.14.45_pm_iasjdb.png" />
 
 Lesson 1 will focus only on what the HTML looks like (step 3).
+
+### Getting started on your laptop.
+
+You write:
+- Written documents using Word
+- Spreadsheets using excel
+- Code documents using a text editor like <a href='https://www.sublimetext.com/3'>Sublime</a>
