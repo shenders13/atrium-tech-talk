@@ -77,3 +77,30 @@ Step 1: Add the correct text to the page. We'll use `h1` (most notable heading) 
   </body>
 </html>
 ```
+
+##### Adding pink/purple background
+```
+<html>
+  <head>
+    <title>Sam Henderson</title>
+    <style>
+      .background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: linear-gradient(261deg, #A2A8D2 1%, #DF6B96 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <h1>Sam Henderson</h1>
+      <h3>Engineer</h3>
+      <h3>San Franciso, California</h3>
+    </div>
+  </body>
+</html>
+```
+
