@@ -19,4 +19,4 @@ When you type `www.netflix.com/watch/80192018` into your browser, this shit happ
 
 <img src="https://res.cloudinary.com/small-change/image/upload/v1537751752/Screen_Shot_2018-09-23_at_6.14.45_pm_iasjdb.png" />
 
-<b>Lesson 1 will focus only on what the HTML looks like (step 3).</b> 
+Lesson 1 will focus only on what the HTML looks like (step 3).
