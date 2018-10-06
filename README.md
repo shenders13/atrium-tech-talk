@@ -120,6 +120,9 @@ Step 3: Make the font white, less bold and all the same size.
   <head>
     <title>Sam Henderson</title>
     <style>
+      body {
+        font-family: sans-serif;
+      }
       .background {
         position: fixed;
         left: 0;
