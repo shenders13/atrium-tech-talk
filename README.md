@@ -258,7 +258,7 @@ Step 5: Wack a button under the text and make it a link to open an email.
           <h1 class='heading'>Sam Henderson</h1>
           <h3 class='heading'>Engineer</h3>
           <h3 class='heading'>San Franciso, California</h3>
-          <a href="mailto:someone@yoursite.com">
+          <a href="mailto:someone@yoursite.com?subject=Mail from website">
             <button class="email-btn">Email Sam</button>
           </a>  
         </div>
@@ -330,7 +330,7 @@ Step 6: Insert an image of the rocks and stick it to the bottom of the page.
           <h1 class='heading'>Sam Henderson</h1>
           <h3 class='heading'>Engineer</h3>
           <h3 class='heading'>San Franciso, California</h3>
-          <a href="mailto:someone@yoursite.com">
+          <a href="mailto:someone@yoursite.com?subject=Mail from website">
             <button class="email-btn">Email Sam</button>
           </a>  
         </div>
@@ -416,7 +416,7 @@ Step 6: Insert an image of the sun.
           <h1 class='heading'>Sam Henderson</h1>
           <h3 class='heading'>Engineer</h3>
           <h3 class='heading'>San Franciso, California</h3>
-          <a href="mailto:someone@yoursite.com">
+          <a href="mailto:someone@yoursite.com?subject=Mail from website">
             <button class="email-btn">Email Sam</button>
           </a>  
         </div>
