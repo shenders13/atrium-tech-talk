@@ -111,3 +111,36 @@ Your page should look like this:
 
 <img src="https://res.cloudinary.com/small-change/image/upload/v1538856932/Screen_Shot_2018-10-06_at_1.12.49_PM_ef4rxo.png" />
 
+##### Making the text look nice.
+
+Step 3: Make the font white, less bold and all the same size.
+
+```
+<html>
+  <head>
+    <title>Sam Henderson</title>
+    <style>
+      .background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: linear-gradient(261deg, #A2A8D2 1%, #DF6B96 100%);
+      }
+      .heading {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <h1 class="heading">Sam Henderson</h1>
+      <h3 class="heading">Engineer</h3>
+      <h3 class="heading">San Franciso, California</h3>
+    </div>
+  </body>
+</html>
+```
