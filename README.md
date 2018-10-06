@@ -434,3 +434,56 @@ You should now see the sun:
 
 <img src="https://res.cloudinary.com/small-change/image/upload/v1538859459/Screen_Shot_2018-10-06_at_1.56.55_PM_pusxlx.png" />
 
+
+##### Separate CSS styling into it's own CSS file.
+
+Step 6: Insert an image of the sun.
+
+Make the following folder structure by adding `styles.css`
+
+```
+/apps
+  /atrium-tech-talks
+    /lesson-01
+      styles.css
+      index.html
+```
+
+Now move all your CSS (code in the `<style></style>` tags) that is currently in `index.html`, into your new `styles.css` file.
+
+Finally add:
+
+```
+<link rel="stylesheet" type="text/css" href="styles.css">
+```
+into your `<head></head>` tags. 
+
+Your `index.html` should now look like:
+
+```
+<html>
+  <head>
+    <title>Sam Henderson</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="background">
+      <div class="info-outer-container">
+        <div class="info-inner-container">
+          <h1 class='heading'>Sam Henderson</h1>
+          <h3 class='heading'>Engineer</h3>
+          <h3 class='heading'>San Franciso, California</h3>
+          <a href="mailto:someone@yoursite.com">
+            <button class="email-btn">Email Sam</button>
+          </a>  
+        </div>
+        <div class="sun-container">
+          <img src="https://res.cloudinary.com/small-change/image/upload/v1537741707/Semi_mkwky1.png" alt="Sun" class="sun">  
+        </div>
+        <img src="https://res.cloudinary.com/small-change/image/upload/v1537741706/rocks_heaeje.png" alt="Rocks" class="rocks">
+      </div>
+    </div>
+  </body>
+</html>
+```
+
