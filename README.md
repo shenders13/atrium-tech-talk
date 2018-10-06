@@ -496,3 +496,5 @@ Firstly, you have made your first web page!
 You have: 
 - written HTML (`index.html`) - the building blocks of the web
 - styled the HTML using CSS (`styles.css`)
+
+<img src="https://res.cloudinary.com/small-change/image/upload/v1538860703/Screen_Shot_2018-10-06_at_2.17.53_PM_ukaecz.png" />
