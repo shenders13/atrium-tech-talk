@@ -340,3 +340,7 @@ Step 5: Insert an image of the rocks and stick it to the bottom of the page.
   </body>
 </html>
 ```
+You should now see the rocks!
+
+<img src="https://res.cloudinary.com/small-change/image/upload/v1538858872/Screen_Shot_2018-10-06_at_1.47.09_PM_urqagb.png" />
+
