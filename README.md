@@ -267,3 +267,6 @@ Step 5: Wack a button under the text and make it a link to open an email.
   </body>
 </html>
 ```
+You should now see this:
+
+<img src="https://res.cloudinary.com/small-change/image/upload/v1538858452/Screen_Shot_2018-10-06_at_1.39.53_PM_nwwaex.png" />
