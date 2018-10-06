@@ -154,3 +154,48 @@ The text should now look like:
 ##### Move the text into the middle.
 
 Step 4: Let's move the text into the middle.
+
+```
+<html>
+  <head>
+    <title>Sam Henderson</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: linear-gradient(261deg, #A2A8D2 1%, #DF6B96 100%);
+      }
+      .heading {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 100;
+      }
+      .info-outer-container {
+        padding-top: 14vh;
+      }
+      .info-inner-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <div class="info-outer-container">
+        <div class="info-inner-container">
+          <h1 class='heading'>Sam Henderson</h1>
+          <h3 class='heading'>Engineer</h3>
+          <h3 class='heading'>San Franciso, California</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+```
