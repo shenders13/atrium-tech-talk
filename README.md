@@ -113,7 +113,7 @@ Your page should look like this:
 
 ##### Making the text look nice.
 
-Step 3: Make the font white, less bold and all the same size.
+Step 3: Make the font sans-serif, white, less bold and all the same size.
 
 ```
 <html>
