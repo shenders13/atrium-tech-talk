@@ -199,3 +199,7 @@ Step 4: Let's move the text into the middle.
   </body>
 </html>
 ```
+
+Your text should now be centered:
+
+<img src="https://res.cloudinary.com/small-change/image/upload/v1538858083/Screen_Shot_2018-10-06_at_1.33.37_PM_muotpe.png" />
