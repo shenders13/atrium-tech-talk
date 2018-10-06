@@ -203,3 +203,67 @@ Step 4: Let's move the text into the middle.
 Your text should now be centered:
 
 <img src="https://res.cloudinary.com/small-change/image/upload/v1538858083/Screen_Shot_2018-10-06_at_1.33.37_PM_muotpe.png" />
+
+##### Add the Email button/link.
+
+Step 5: Wack a button under the text and make it a link to open an email.
+
+```
+<html>
+  <head>
+    <title>Sam Henderson</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: linear-gradient(261deg, #A2A8D2 1%, #DF6B96 100%);
+      }
+      .heading {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 100;
+      }
+      .info-outer-container {
+        padding-top: 14vh;
+      }
+      .info-inner-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .email-btn {
+        background-color: white;
+        border-radius: 3px;
+        font-size: 18px;
+        border: none;
+        padding: 12px 48px;
+        margin-top: 24px;
+        color: #D7739E;
+      }
+      .email-btn:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <div class="info-outer-container">
+        <div class="info-inner-container">
+          <h1 class='heading'>Sam Henderson</h1>
+          <h3 class='heading'>Engineer</h3>
+          <h3 class='heading'>San Franciso, California</h3>
+          <a href="mailto:someone@yoursite.com">
+            <button class="email-btn">Email Sam</button>
+          </a>  
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+```
