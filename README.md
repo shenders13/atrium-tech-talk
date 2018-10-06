@@ -107,3 +107,7 @@ Step 2: Add the background color using CSS.
 </html>
 ```
 
+Your page should look like this:
+
+<img src="https://res.cloudinary.com/small-change/image/upload/v1538856932/Screen_Shot_2018-10-06_at_1.12.49_PM_ef4rxo.png" />
+
