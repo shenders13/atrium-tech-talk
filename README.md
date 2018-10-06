@@ -150,3 +150,7 @@ Step 3: Make the font sans-serif, white, less bold and all the same size.
 The text should now look like:
 
 <img src="https://res.cloudinary.com/small-change/image/upload/v1538857796/Screen_Shot_2018-10-06_at_1.28.45_PM_a3kv7x.png" />
+
+##### Move the text into the middle.
+
+Step 4: Let's move the text into the middle.
