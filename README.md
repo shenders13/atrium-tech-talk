@@ -79,6 +79,9 @@ Step 1: Add the correct text to the page. We'll use `h1` (most notable heading) 
 ```
 
 ##### Adding pink/purple background
+
+Step 2: Add the background color using CSS.
+
 ```
 <html>
   <head>
