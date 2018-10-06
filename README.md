@@ -270,3 +270,73 @@ Step 5: Wack a button under the text and make it a link to open an email.
 You should now see this:
 
 <img src="https://res.cloudinary.com/small-change/image/upload/v1538858452/Screen_Shot_2018-10-06_at_1.39.53_PM_nwwaex.png" />
+
+##### Add the rocks down the bottom of the page.
+
+Step 5: Insert an image of the rocks and stick it to the bottom of the page.
+
+```
+<html>
+  <head>
+    <title>Sam Henderson</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: linear-gradient(261deg, #A2A8D2 1%, #DF6B96 100%);
+      }
+      .heading {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 100;
+      }
+      .info-outer-container {
+        padding-top: 14vh;
+      }
+      .info-inner-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .email-btn {
+        background-color: white;
+        border-radius: 3px;
+        font-size: 18px;
+        border: none;
+        padding: 12px 48px;
+        margin-top: 24px;
+        color: #D7739E;
+      }
+      .email-btn:hover {
+        cursor: pointer;
+      }
+      .rocks {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <div class="info-outer-container">
+        <div class="info-inner-container">
+          <h1 class='heading'>Sam Henderson</h1>
+          <h3 class='heading'>Engineer</h3>
+          <h3 class='heading'>San Franciso, California</h3>
+          <a href="mailto:someone@yoursite.com">
+            <button class="email-btn">Email Sam</button>
+          </a>  
+        </div>
+        <img src="https://res.cloudinary.com/small-change/image/upload/v1537741706/rocks_heaeje.png" alt="Rocks" class="rocks">
+      </div>
+    </div>
+  </body>
+</html>
+```
