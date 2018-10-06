@@ -496,5 +496,8 @@ Firstly, you have made your first web page!
 You have: 
 - written HTML (`index.html`) - the building blocks of the web
 - styled the HTML using CSS (`styles.css`)
+- learnt that when a browser like Chrome makes a request to a server, it responds with HTML. 
+
+Server responding with HTML:
 
 <img src="https://res.cloudinary.com/small-change/image/upload/v1538860703/Screen_Shot_2018-10-06_at_2.17.53_PM_ukaecz.png" />
