@@ -501,3 +501,8 @@ You have:
 Server responding with HTML:
 
 <img src="https://res.cloudinary.com/small-change/image/upload/v1538860703/Screen_Shot_2018-10-06_at_2.17.53_PM_ukaecz.png" />
+
+
+### What's in Lesson 2?
+
+The internal monologue of the butler (server).
