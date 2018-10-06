@@ -437,7 +437,7 @@ You should now see the sun:
 
 ##### Separate CSS styling into it's own CSS file.
 
-Step 6: Insert an image of the sun.
+Step 7: Service some tech debt.
 
 Make the following folder structure by adding `styles.css`
 
@@ -487,3 +487,12 @@ Your `index.html` should now look like:
 </html>
 ```
 
+### What have we learnt?
+
+Firstly, you have made your first web page!
+
+<img src="http://78.media.tumblr.com/tumblr_m5464bwVFv1qihztbo1_400.gif" />
+
+You have: 
+- written HTML (`index.html`) - the building blocks of the web
+- styled the HTML using CSS (`styles.css`)
