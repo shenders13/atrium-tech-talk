@@ -460,11 +460,11 @@ into your `<head></head>` tags.
 
 Your `index.html` should now look like:
 
-```
+```diff
 <html>
   <head>
     <title>Sam Henderson</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
++   <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
     <div class="background">
