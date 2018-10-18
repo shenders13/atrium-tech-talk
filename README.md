@@ -101,7 +101,7 @@ Step 2: Add the background color using CSS.
 +    <div class="background">
       <h1>Sam Henderson</h1>
       <h3>Engineer</h3>
-      <h3>San Franciso, California</h3>
++      <h3>San Franciso, California</h3>
     </div>
   </body>
 </html>
