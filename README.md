@@ -1,3 +1,5 @@
+While you're waiting, please download and install <a href='https://www.sublimetext.com/3'>Sublime</a>.
+
 # Atrium's intro to the world of coding
 
 ## Lesson 1
