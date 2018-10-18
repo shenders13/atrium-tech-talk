@@ -349,100 +349,10 @@ You should now see the rocks!
 
 <img src="https://res.cloudinary.com/small-change/image/upload/v1538858872/Screen_Shot_2018-10-06_at_1.47.09_PM_urqagb.png" />
 
-##### Add the sun
-
-Step 6: Insert an image of the sun.
-
-```diff
-<html>
-  <head>
-    <title>Sam Henderson</title>
-    <style>
-      body {
-        font-family: sans-serif;
-      }
-      .background {
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        background-image: linear-gradient(261deg, #A2A8D2 1%, #DF6B96 100%);
-      }
-      .heading {
-        color: #fff;
-        font-size: 18px;
-        font-weight: 100;
-      }
-      .info-outer-container {
-        padding-top: 14vh;
-      }
-      .info-inner-container {
-        width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
-      }
-      .email-btn {
-        background-color: white;
-        border-radius: 3px;
-        font-size: 18px;
-        border: none;
-        padding: 12px 48px;
-        margin-top: 24px;
-        color: #D7739E;
-      }
-      .email-btn:hover {
-        cursor: pointer;
-      }
-      .rocks {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-      }
-+      .sun-container {
-+        position: fixed;
-+        bottom: 0;
-+        left: 0;
-+        right: 0;
-+        display: flex;
-+        justify-content: center
-+      }
-+      .sun {
-+        width: 100%;
-+        max-width: 700px;
-+        max-height: 280px;
-+      }
-    </style>
-  </head>
-  <body>
-    <div class="background">
-      <div class="info-outer-container">
-        <div class="info-inner-container">
-          <h1 class='heading'>Sam Henderson</h1>
-          <h3 class='heading'>Engineer</h3>
-          <h3 class='heading'>San Franciso, California</h3>
-          <a href="mailto:someone@yoursite.com?subject=Mail from website">
-            <button class="email-btn">Email Sam</button>
-          </a>  
-        </div>
-+        <div class="sun-container">
-+          <img src="https://res.cloudinary.com/small-change/image/upload/v1537741707/Semi_mkwky1.png" alt="Sun" class="sun">  
-+        </div>
-        <img src="https://res.cloudinary.com/small-change/image/upload/v1537741706/rocks_heaeje.png" alt="Rocks" class="rocks">
-      </div>
-    </div>
-  </body>
-</html>
-```
-
-You should now see the sun:
-
-<img src="https://res.cloudinary.com/small-change/image/upload/v1538859459/Screen_Shot_2018-10-06_at_1.56.55_PM_pusxlx.png" />
-
 
 ##### Separate CSS styling into it's own CSS file.
 
-Step 7: Service some tech debt.
+Step 6: Service some tech debt.
 
 Make the following folder structure by adding `styles.css`
 
