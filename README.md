@@ -206,7 +206,7 @@ Your text should now be centered:
 
 ##### Add the Email button/link.
 
-Step 5: Wack a button under the text and make it a link to open an email.
+Step 5: Wack a button under the text and make it a link to open an email. First add the button in the HTML. Refresh and check an ugly-ass button appeared. Now make it pretty by adding the CSS.
 
 ```diff
 <html>
