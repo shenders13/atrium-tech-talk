@@ -101,8 +101,8 @@ Step 2: Add the background color using CSS.
 +    <div class="background">
       <h1>Sam Henderson</h1>
       <h3>Engineer</h3>
-+      <h3>San Franciso, California</h3>
-    </div>
+      <h3>San Franciso, California</h3>
++    </div>
   </body>
 </html>
 ```
@@ -115,14 +115,14 @@ Your page should look like this:
 
 Step 3: Make the font sans-serif, white, less bold and all the same size.
 
-```
+```diff
 <html>
   <head>
     <title>Sam Henderson</title>
     <style>
-      body {
-        font-family: sans-serif;
-      }
++      body {
++        font-family: sans-serif;
++      }
       .background {
         position: fixed;
         left: 0;
@@ -131,18 +131,18 @@ Step 3: Make the font sans-serif, white, less bold and all the same size.
         bottom: 0;
         background-image: linear-gradient(261deg, #A2A8D2 1%, #DF6B96 100%);
       }
-      .heading {
-        color: #fff;
-        font-size: 18px;
-        font-weight: 100;
-      }
++      .heading {
++        color: #fff;
++        font-size: 18px;
++        font-weight: 100;
++      }
     </style>
   </head>
   <body>
     <div class="background">
-      <h1 class="heading">Sam Henderson</h1>
-      <h3 class="heading">Engineer</h3>
-      <h3 class="heading">San Franciso, California</h3>
++      <h1 class="heading">Sam Henderson</h1>
++      <h3 class="heading">Engineer</h3>
++      <h3 class="heading">San Franciso, California</h3>
     </div>
   </body>
 </html>
@@ -155,7 +155,7 @@ The text should now look like:
 
 Step 4: Let's move the text into the middle.
 
-```
+```diff
 <html>
   <head>
     <title>Sam Henderson</title>
@@ -176,25 +176,25 @@ Step 4: Let's move the text into the middle.
         font-size: 18px;
         font-weight: 100;
       }
-      .info-outer-container {
-        padding-top: 14vh;
-      }
-      .info-inner-container {
-        width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
-      }
++      .info-outer-container {
++        padding-top: 14vh;
++      }
++      .info-inner-container {
++        width: 100%;
++        max-width: 800px;
++        margin: 0 auto;
++      }
     </style>
   </head>
   <body>
     <div class="background">
-      <div class="info-outer-container">
-        <div class="info-inner-container">
++      <div class="info-outer-container">
++        <div class="info-inner-container">
           <h1 class='heading'>Sam Henderson</h1>
           <h3 class='heading'>Engineer</h3>
           <h3 class='heading'>San Franciso, California</h3>
-        </div>
-      </div>
++        </div>
++      </div>
     </div>
   </body>
 </html>
@@ -208,7 +208,7 @@ Your text should now be centered:
 
 Step 5: Wack a button under the text and make it a link to open an email.
 
-```
+```diff
 <html>
   <head>
     <title>Sam Henderson</title>
@@ -237,18 +237,18 @@ Step 5: Wack a button under the text and make it a link to open an email.
         max-width: 800px;
         margin: 0 auto;
       }
-      .email-btn {
-        background-color: white;
-        border-radius: 3px;
-        font-size: 18px;
-        border: none;
-        padding: 12px 48px;
-        margin-top: 24px;
-        color: #D7739E;
-      }
-      .email-btn:hover {
-        cursor: pointer;
-      }
++      .email-btn {
++        background-color: white;
++        border-radius: 3px;
++        font-size: 18px;
++        border: none;
++        padding: 12px 48px;
++        margin-top: 24px;
++        color: #D7739E;
++      }
++      .email-btn:hover {
++        cursor: pointer;
++      }
     </style>
   </head>
   <body>
@@ -258,9 +258,9 @@ Step 5: Wack a button under the text and make it a link to open an email.
           <h1 class='heading'>Sam Henderson</h1>
           <h3 class='heading'>Engineer</h3>
           <h3 class='heading'>San Franciso, California</h3>
-          <a href="mailto:someone@yoursite.com?subject=Mail from website">
-            <button class="email-btn">Email Sam</button>
-          </a>  
++          <a href="mailto:someone@yoursite.com?subject=Mail from website">
++            <button class="email-btn">Email Sam</button>
++          </a>  
         </div>
       </div>
     </div>
@@ -275,7 +275,7 @@ You should now see this:
 
 Step 6: Insert an image of the rocks and stick it to the bottom of the page.
 
-```
+```diff
 <html>
   <head>
     <title>Sam Henderson</title>
@@ -316,11 +316,11 @@ Step 6: Insert an image of the rocks and stick it to the bottom of the page.
       .email-btn:hover {
         cursor: pointer;
       }
-      .rocks {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-      }
++      .rocks {
++        position: fixed;
++        bottom: 0;
++        width: 100%;
++      }
     </style>
   </head>
   <body>
@@ -334,7 +334,7 @@ Step 6: Insert an image of the rocks and stick it to the bottom of the page.
             <button class="email-btn">Email Sam</button>
           </a>  
         </div>
-        <img src="https://res.cloudinary.com/small-change/image/upload/v1537741706/rocks_heaeje.png" alt="Rocks" class="rocks">
++        <img src="https://res.cloudinary.com/small-change/image/upload/v1537741706/rocks_heaeje.png" alt="Rocks" class="rocks">
       </div>
     </div>
   </body>
@@ -348,7 +348,7 @@ You should now see the rocks!
 
 Step 6: Insert an image of the sun.
 
-```
+```diff
 <html>
   <head>
     <title>Sam Henderson</title>
@@ -394,19 +394,19 @@ Step 6: Insert an image of the sun.
         bottom: 0;
         width: 100%;
       }
-      .sun-container {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        display: flex;
-        justify-content: center
-      }
-      .sun {
-        width: 100%;
-        max-width: 700px;
-        max-height: 280px;
-      }
++      .sun-container {
++        position: fixed;
++        bottom: 0;
++        left: 0;
++        right: 0;
++        display: flex;
++        justify-content: center
++      }
++      .sun {
++        width: 100%;
++        max-width: 700px;
++        max-height: 280px;
++      }
     </style>
   </head>
   <body>
@@ -420,9 +420,9 @@ Step 6: Insert an image of the sun.
             <button class="email-btn">Email Sam</button>
           </a>  
         </div>
-        <div class="sun-container">
-          <img src="https://res.cloudinary.com/small-change/image/upload/v1537741707/Semi_mkwky1.png" alt="Sun" class="sun">  
-        </div>
++        <div class="sun-container">
++          <img src="https://res.cloudinary.com/small-change/image/upload/v1537741707/Semi_mkwky1.png" alt="Sun" class="sun">  
++        </div>
         <img src="https://res.cloudinary.com/small-change/image/upload/v1537741706/rocks_heaeje.png" alt="Rocks" class="rocks">
       </div>
     </div>
@@ -441,11 +441,11 @@ Step 7: Service some tech debt.
 
 Make the following folder structure by adding `styles.css`
 
-```
+```diff
 /apps
   /atrium-tech-talks
     /lesson-01
-      styles.css
++      styles.css
       index.html
 ```
 
@@ -453,8 +453,8 @@ Now move all your CSS (code in the `<style></style>` tags) that is currently in 
 
 Finally add:
 
-```
-<link rel="stylesheet" type="text/css" href="styles.css">
+```diff
++ <link rel="stylesheet" type="text/css" href="styles.css">
 ```
 into your `<head></head>` tags. 
 
