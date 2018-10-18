@@ -67,6 +67,9 @@ Some of the most commonly used HTML tags are:
 ##### Adding the correct text
 
 Step 1: Add the correct text to the page. We'll use `h1` (most notable heading) for your name, and `h3`'s for your title and location.
+
+You don't need to add the `+` symbols. I'm just using those to show that it's a new line.
+
 ```diff
 <html>
   <head>
