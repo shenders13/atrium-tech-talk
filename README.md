@@ -68,12 +68,12 @@ Step 1: Add the correct text to the page. We'll use `h1` (most notable heading) 
 ```
 <html>
   <head>
-    <title>Sam Henderson</title>
++    <title>Sam Henderson</title>
   </head>
   <body>
-    <h1>Sam Henderson</h1>
-    <h3>Engineer</h3>
-    <h3>San Franciso, California</h3>
++    <h1>Sam Henderson</h1>
++    <h3>Engineer</h3>
++    <h3>San Franciso, California</h3>
   </body>
 </html>
 ```
